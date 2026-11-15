@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" width="820" height="420" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<title>Step-down ladder</title>
+<rect width="820" height="420" rx="12" fill="#ffffff"/>
+<text x="410.0" y="32.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="600">Step-down ladder: more caution as you go up</text>
+<rect x="40" y="56" width="740" height="46" rx="8" fill="#fecaca" stroke="#dc2626"/>
+<text x="58.0" y="76.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Stop</text>
+<text x="58.0" y="94.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: raw overload, slow overload, or stop pressed</text>
+<text x="764.0" y="85.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">latches</text>
+<rect x="40" y="112" width="740" height="46" rx="8" fill="#fde68a" stroke="#d97706"/>
+<text x="58.0" y="132.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Observe</text>
+<text x="58.0" y="150.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: clinician override or envelope expiry</text>
+<text x="764.0" y="141.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">latches</text>
+<rect x="40" y="168" width="740" height="46" rx="8" fill="#fef3c7" stroke="#d97706"/>
+<text x="58.0" y="188.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Quarantine: fixed protocol only</text>
+<text x="58.0" y="206.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: rhythm or medication flag, unknown status, no baseline</text>
+<text x="764.0" y="197.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">until confirmed</text>
+<rect x="40" y="224" width="740" height="46" rx="8" fill="#e0e7ff" stroke="#4f46e5"/>
+<text x="58.0" y="244.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Suggest-only cap</text>
+<text x="58.0" y="262.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: calibration drift, repeated denials</text>
+<text x="764.0" y="253.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">latches</text>
+<rect x="40" y="280" width="740" height="46" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+<text x="58.0" y="300.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Fall back to trusted</text>
+<text x="58.0" y="318.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: abstain, low confidence, monitor flag</text>
+<text x="764.0" y="309.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">this decision</text>
+<rect x="40" y="336" width="740" height="46" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+<text x="58.0" y="356.0" font-size="14" text-anchor="start" fill="#111827" font-weight="600">Hold last safe output</text>
+<text x="58.0" y="374.0" font-size="12" text-anchor="start" fill="#374151" font-weight="normal">trigger: stale or low-quality frame</text>
+<text x="764.0" y="365.0" font-size="12" text-anchor="end" fill="#374151" font-weight="normal">this frame</text>
+<text x="410.0" y="400.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal">Numeric thresholds are placeholders awaiting clinical sign-off. Firmware limits hold regardless of software.</text>
+</svg>
